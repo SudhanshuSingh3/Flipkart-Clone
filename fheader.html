@@ -7,7 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>flipkart</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
     <style>
+        * {
+        font-family:"Roboto",Arial,sans-serif;
+      }
         *{
             margin:0;
             padding: 0;
@@ -52,15 +62,15 @@
             vertical-align: top;
             display: inline-block;
             justify-content: space;
-            margin: 0rem 2rem;
-            padding: 2.5rem 2rem;
+            margin: 0 28px;
+            padding:12px 8px;
         }
         .fsize{
             font-size:1.2rem;
         }
         .caption {
             display: block;
-            font-size: 1.5rem;
+            font-size: 14px;
         }
         .input{
             padding:2.5px 20px;
@@ -83,6 +93,60 @@
         .logo{
             margin:0 25px 0 0;
         }
+        .bpadding{
+            padding:8px; 
+        }
+        .inline{
+            display: inline;
+        }
+        .flex{
+            display: flex;
+        }
+        .card{
+            display:flex
+        }
+        .side_offer{
+            margin:0 0 0 45px;
+        }
+        .card_child{
+            padding:25px 15px;
+        }
+        .secondary-element {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .text-success {
+        color: green;
+        padding: 8px 0 0 0;
+      }
+
+      .text-disabled {
+        color: #afafaf;
+        padding:7px 0 0 0;
+    }
+    .text-primary{
+        margin:15px 0 0 0;
+    }
+    .img-center{
+        align-items: center;
+    }
+    .deal-of-day{
+        padding:15px 20px;
+        display: inline;
+    }
+    .view-all-button{
+        background-color:#2874f0;
+        float: right;
+    }
+    .view-all{
+        float:right;
+        color:white;
+        padding: 10px;
+    }
+    .dod-inline{
+        display:inline-block;
+    }
     </style>
 
 </head>
@@ -107,14 +171,129 @@
 
     </div>
     <div class="image">
-        <div class="alignx"><img src="grocery.png" /><span class="caption">Grocery</span></div>
-        <div class="alignx"><img src="offers.png" /><span class="caption">Offers</span></div>
-        <div class="alignx"><img src="mobile.png" /><span class="caption">Mobile</span></div>
-        <div class="alignx"><img src="fashion.png" /><span class="caption">Fashion</span></div>
-        <div class="alignx"><img src="electronic.png" /><span class="caption">Electronic</span></div>
+        <div class="alignx"><img src="grocery.png"  width="64px" height="64px"/><span class="caption">Grocery</span></div>
+        <div class="alignx"><img src="offers.png" width="64px" height="64px"/><span class="caption">Offers</span></div>
+        <div class="alignx"><img src="mobile.png" width="64px" height="64px"/><span class="caption">Mobile</span></div>
+        <div class="alignx"><img src="fashion.png" width="64px" height="64px"/><span class="caption">Fashion</span></div>
+        <div class="alignx"><img src="electronic.png" width="64px" height="64px"/><span class="caption">Electronic</span></div>
+        <div class="alignx"><img src="Home.jpg" width="64px" height="64px"/><span class="caption">Home</span></div>
+        <div class="alignx"><img src="Appliances.png" width="64px" height="64px"/><span class="caption">Appliances</span></div>
+        <div class="alignx"><img src="Travel.png" width="64px" height="64px"/><span class="caption">Travel</span></div>
+        <div class="alignx"><img src="Beauty,toys.png" width="64px" height="64px"/><span class="caption">Beauty, Toys & More</span></div>
     <div>
 
     </div>
+ 
+
+<!-- bannner start  -->
+
+    <div>
+       
+        <div class="bpadding">
+            <img src="banner1.jpg" width="100%" height="280px"/>
+        </div>
+
+    </div>
+<!-- banner end -->
+      <div class="flex">
+        
+        <!-- section 1 -->
+        <div >
+            <div>
+                <div class="deal-of-day">
+                    <h2 class="dod-inline"> Deal of the Day</h2>
+                    <div class="view-all-button">
+                        <a class="view-all">View All</a>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div class="card">
+                 <!-- 1 -->
+            <div class="card_child">
+                <div class="img-center">
+                    <!-- for image -->
+                    <img src="/card/best-of-brand.jpeg" height="150px" />
+                </div>
+                <!-- for written content -->
+                <div class="secondary-element">
+                    <h3 class="text-primary">Best of Brands</h3>
+                    <p class="text-success">Min 50% Off</p>
+                    <p class="text-disabled">Men's Clothing</p>
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="card_child">
+                <div class="img-center">
+                    <!-- for image -->
+                    <img src="/card/watch.jpeg" height="150px" />
+                </div>
+                <!-- for written content -->
+                <div class="secondary-element">
+                    <h3 class="text-primary">Titan,Fastrack</h3>
+                    <p class="text-success">Upto 75%+Extra 10%Off</p>
+                    <p class="text-disabled">Selling Fast Grab Now!</p>
+                </div>
+            </div>
+            <!-- 3 -->
+            <div class="card_child">
+                <div class="img-center">
+                    <!-- for image -->
+                    <img src="/card/shoes.jpeg"height="150px" />
+                </div>
+                <!-- for written content -->
+                <div class="secondary-element">
+                    <h3 class="text-primary">Sparx,Bruton & more</h3>
+                    <p class="text-success">From 199+Extra 10%off</p>
+                    <p class="text-disabled">Casual Shoes For Men's</p>
+                </div>
+            </div>
+            <!-- 4 -->
+            <div class="card_child">
+                <div class="img-center">
+                    <!-- for image -->
+                    <img src="/card/stationery.jpeg"height="150px" />
+                </div>
+                <!-- for written content -->
+                <div class="secondary-element">
+                    <h3 class="text-primary">Stationery</h3>
+                    <p class="text-success">Upto 70% off+Extra 10%</p>
+                    <p class="text-disabled">Notebooks,Pens & more</p>
+                </div>
+            </div>
+            <!-- 5 -->
+            <div class="card_child">
+                <div class="img-center">
+                    <!-- for image -->
+                    <img src="/card/foods.jpeg" height="150px"/>
+                </div>
+                <!-- for written content -->
+                <div class="secondary-element">
+                    <h3 class="text-primary">Food & Beverages</h3>
+                    <p class="text-success">Upto 65%+Extra 5% Off</p>
+                    <p class="text-disabled">Coffee,Breakfast,Nuts</p>
+                </div>
+            </div>
+            </div>
+
+        </div>
+        
+        
+        
+        <!-- section 2 -->
+        <div class="side_offer">
+         <img src="side_offer.jpg" width="230px" height="353px"/>
+        </div>
+  
+
+
+      </div>
+
+
+
+
+
 </body>
 
 </html>
