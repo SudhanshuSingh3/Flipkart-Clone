@@ -1,0 +1,262 @@
+* {
+    font-family:"Roboto",Arial,sans-serif;
+  }
+    *{
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .header {
+        background-color: #2874f0;
+        height: 56px;
+        width: 100%;
+        
+    }
+    .navbar{
+        justify-content:center;
+        align-items: center;
+        display:flex;
+        height: 56px;
+
+    }
+
+
+    a {
+        text-decoration: none;
+
+    }
+    .white{
+        color:white; 
+    }
+
+    .login {
+        background-color: white;
+        padding:5px 40px;
+        color: #2874f0;
+        margin:0 40px;
+
+    }
+
+    .border_none {
+        border: none;
+    }
+
+   div.alignx {
+        vertical-align: top;
+        display: inline-block;
+        justify-content: space;
+        margin: 0 28px;
+        padding:12px 8px;
+    }
+    .fsize{
+        font-size:1.2rem;
+    }
+    .caption {
+        display: block;
+        font-size: 14px;
+        text-align: center;
+    }
+    .input{
+        padding:2.5px 20px;
+        background-color: white;
+        width:490px;
+        margin:0 25px 0 0;
+        outline:none;
+    }
+    .search{
+        background-color:white;
+        padding:7px 0;
+        
+    }
+    .cartspace{
+        margin:0 0 0 4rem;
+    }
+    .explore{
+        font-style: italic;
+        font-size: 11px;
+    }
+    .logo{
+        margin:0 25px 0 0;
+    }
+    .bpadding{
+        padding:8px; 
+    }
+    .inline{
+        display: inline;
+    }
+    .flex{
+        display: flex;
+    }
+    .card{
+        display:flex
+    }
+    .side_offer{
+        margin:0 0 0 45px;
+    }
+    .card_child{
+        padding:25px 15px;
+    }
+    .secondary-element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .text-success {
+    color: green;
+    padding: 8px 0 0 0;
+    font-size:14px
+  }
+
+  .text-disabled {
+    color: #afafaf;
+    padding:7px 0 0 0;
+    font-size: 14px;
+}
+.text-primary{
+    margin:15px 0 0 0;
+    
+    font-size: 14px;
+
+}
+.img-center{
+   display: flex;
+   justify-content: center;
+}
+.deal-of-day{
+    padding:15px 20px;
+    display: inline;
+}
+.view-all-button{
+    background-color:#2874f0;
+    float: right;
+}
+.view-all{
+    
+    color:white;
+    padding: 10px;
+}
+.dod-inline{
+    display:inline-block;
+}
+.top-pick{
+    padding:15px 20px;
+    border-bottom :1px solid rgba(0,0,0,.1);
+}
+.top-pick-h2{
+    font-size: 22px;
+    display: inline-block;
+    font-weight: 500;
+}
+.tpview{
+    float:right;
+}
+.tp-view-all{
+    display: inline-block;
+    font-size :13px;
+    font-weight :500;
+    padding :10px 20px;
+    border-radius: 2px;
+    color : #fff;
+    background-color: #2874f0;
+    border :none;
+}
+.footer{
+    background-color: #172337;
+    display:flex;
+    padding: 40px;
+}
+.child-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.footer-column{
+    display: flex;
+    flex-direction:column;
+    color:white;
+}
+.footer-column a{
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+    line-height: 2;
+}
+.footer-column p{
+    margin-bottom:9px;
+    color:#878787;
+    font-size:12px;
+}
+.footer-column h5{
+    font-weight:normal;
+    line-height: 1.5;
+}
+.telephone{
+    color: #2874f0;
+}
+
+
+/* ===================Top-Offer Page Start================== */
+.item-list-bg{
+    background-color: #fff;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 16%);
+}
+.item-list{
+    display:flex;
+    justify-content: space-between;
+    margin:auto;
+    align-items: center;
+    height: 40px;
+    max-width: 1248px;
+    
+    font-size: 14px;
+    
+
+}
+.roboto{
+    font-weight: 500;
+    font-family: 'Roboto',Arial,sans-serif;
+}
+.container{
+    background-color: #f1f3f6;
+}
+.content-container{
+    margin:0 auto;
+    padding: 10px;
+    max-width: 1680px;
+    background-color: #f1f3f6;
+}
+.content-box{
+    background-color: #fff;
+    border-radius:2px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 8%);
+}
+.card-space{
+    padding:10px;
+    background-color: #f1f3f6;
+    /* margin:10px 0; */
+}
+.footer-top-offer{
+    padding:25px 25px;
+    margin-top: 10px;
+    background-color: #fff;
+    color:#878787;
+    font-size: 11px;
+    line-height: 1.4;
+}
+
+
+
+/* ===================Top-Offer Page end================== */
+
+/* @media (min-width: 200px) and (max-width:600px){
+    .banner{
+        width:100%;
+        height:280px;
+        
+    }
+    .alignx{
+        height:auto;
+        width:auto;
+        
+    }
+} */
